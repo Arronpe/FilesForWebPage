@@ -1,0 +1,83 @@
+
+:root {
+    --darkBrown: #9B3D12;
+    --lightBrown: #DAB785;
+    --green: #008148;
+  }
+
+
+.section {
+
+    border-width:5px;
+    border-style: double;
+    border-color: #303633;
+    width: 60%;
+    background-color: var(--lightBrown);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.section:hover {
+    /* background-color: blue; */
+    /* opacity: 0.5; */
+    /* width: 40%; */
+    border-color: blue;
+}
+
+/* #intro:hover {
+    (can also do a hover attribute on an
+
+    border-width: 20px;
+} */
+
+#intro {
+
+    border-width: 10px;
+
+    /* border-width: 6px;
+    border-style: double;
+    border-color: black;
+    width: 60%;
+    background-color: beige;
+    margin-left: auto;
+    margin-right: auto; */
+    
+}
+#hours {
+    /* border-width: 6px;
+    border-style: double;
+    border-color: black;
+    width: 60%;
+    background-color: beige;
+    margin-left: auto;
+    margin-right: auto; */
+    border-width: 10px;
+}
+#locations {
+    /* border-width: 6px;
+    border-style: double;
+    border-color: black;
+    width: 60%;
+    background-color: beige;
+    margin-left: auto;
+    margin-right: auto; */
+    border-width: 10px;
+}
+
+body {
+    background-color: var(--darkBrown);
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    padding: 10px;
+}
+
+#burgersImage {
+    width: 40%;
+    padding: 10px;
+}
+
+

@@ -1,0 +1,75 @@
+<html>
+    <head>
+
+        <link rel="stylesheet" href="week4.css">
+        <link rel="stylesheet" href="week4Navigation.css">
+        <!-- <link rel="stylesheet" href="week4Page2Container.css"> -->
+        <style>
+
+          .outerContainer {
+              display: flex;
+              justify-content: space-evenly;
+              /* justify-content: space-around;
+              border: green 5px solid;
+              padding: 10px;
+              background-color: beige; */
+          
+              /* flex-wrap: wrap; */
+
+          }
+
+          .innerContainer {
+              display: flex;
+              /* justify-content: space-around;
+              border: green 5px solid;
+              padding: 10px;
+              background-color: beige; */
+
+              /* border: black 5px solid; */
+              text-align: left;
+              flex-wrap: wrap;
+              padding: auto;
+
+          }
+
+        </style>
+
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a href="#news" class="active">News</a>
+            <div class="dropdown">
+              <button class="dropbtn">Welcome
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="index.html">Home</a>
+                <a href="#hours">Hours</a>
+                <a href="#locations">Venue</a>
+              </div>
+            </div>
+          </div>
+          <div id="intro" class="section">
+
+            <div class="outerContainer"> 
+              <div class="innerContainer">
+
+                <h3>Welcome to Norm's Bistro!</h3>
+
+                <p>
+                Norm's burgers are consistently rated the best in Minneapolis!
+                </p>
+
+              </div> 
+            
+              <img src="images/burgers.jpg" alt="Photo of some burgers" id="burgersImage">
+            </div>
+
+            <!-- <img src="images/burgers.jpg" alt="Photo of some burgers" id="burgersImage"> -->
+
+        </div>
+        
+        
+    </body>
+</html>
